@@ -20,11 +20,21 @@ main {
 .box {
   width: 300px;
   background-color: #EEEEEE;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+}
+
+.box:last-child {
+  margin-right: 0;
 }
 
 .step {
   background-color: #FF9A4B;
   color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .image1 {
@@ -32,7 +42,6 @@ main {
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
-  margin: 10px;
 }
 
 .image2 {
@@ -40,7 +49,6 @@ main {
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
-  margin: 10px;
 }
 
 .image3 {
@@ -48,16 +56,12 @@ main {
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
-  margin: 10px;
 }
 
 .subtitle {
-  padding-top: 15px;
+  padding: 15px 0 5px;
 }
 
-.box-text {
-  padding-top: 5px;
-}
 
 footer {
   width: 100%;
